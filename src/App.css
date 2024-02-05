@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+.logo a{
+  text-decoration: none;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 26px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+
+  display: inline-block;
+  margin-left: 25px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+
+}
+.navbar button#explore-button{
+  background-color: #203164; 
+  color: #fffefe;
+  font-size: 26px;
+  border-radius: 70px 
+  
+  
+}
+.navbar button#explore-button:hover {
+  background-color: #203164 
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  background-color: #203164;
+  border-radius: 40px;
+  height: 691px;
+  width: 1310;
+}
+
+.content-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+
+}
+.content-left h1 {
+
+position: absolute;
+width: 650px;
+height: 33px;
+left: 43.2px;
+top: 137px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 76px;
+line-height: 200%;
+
+color: #FAC829;
+
+}
+
+.content-left h2{
+
+position: absolute;
+width: 650px;
+height: 33px;
+left: 43.2px;
+top: 186px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 76px;
+line-height: 219%;
+color: #FFFFFF;
+
+}
+p{
+position: absolute;
+width: 681.98px;
+height: 90px;
+left: 43.2px;
+top: 350px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8B94A4;
+}
+
+
+.image-right {
+  
+  height: 831px;
+  width: 641;
+}
+#explore-button-content {
+position: absolute;
+width: 136px;
+height: 55px;
+left: 43px;
+top: 410px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #203164;
+border-radius: 30px;
+}
+
+#explore-button-content:hover {
+  background-color: #79b1ed;
+}
